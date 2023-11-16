@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./Absolute_Reality_v16_Generate_a_captivating_nighttime_landscap_1.jpg"); 
+  background-size: cover; /* Adjusts the size of the background image to cover the whole viewport */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
+  background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+}
+/* .main {
+}
+.multicolortext {
+  background-image: linear-gradient(to left, silver);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+} */
+.name > span {
+  color: silver;
+  font-family: "Pacifico", cursive;
+  font-size: 15vh;
+}
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 1vh;
+  left: 1vh;
+}
+#img-whatsapp {
+  width: 7vh;
+  height: 7vh;
+}
+#profil {
+  border-radius: 50%;
+  width: 200px;
+}
+.profil-div {
+  text-align: center;
+}
+#logoLinkdin {
+  width: 6vh;
+  height: 6vh;
+  border-radius: 30%;
+}
+.page {
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  /* text-align: center; */
+  font-size: 3vh;
+}
+.about2 {
+
+  width: 50%;
+  margin-left: 25%;
+}
+.ListThings {
+  color: fuchsia;
+  font-size: 5vh;
+  font-style: oblique;
+  text-align: center;
+
+}
+.Things {
+  text-align: center;
+}
+.ListThings {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.imagethings {
+  text-align: center;
+  width: 250px;
+  border: 1px solid rgb(198, 48, 239);
+  border-radius: 10%;
+  margin-top: 3vh;
+  order: 1;
+}
+
+#syntaxthings{
+  text-align: center;
+  color: aqua;
+  margin-top: 10%;
+  font-size: 2em;
+}
+.video{
+  text-align: center;
+  color: red;
+  margin-top: 7%;
+  margin-bottom: 0%;
+}
+
+.details{
+  margin-left: 0%;
+  background-color: rgb(42, 20, 74);
+  width: fit-content;
+}
