@@ -8,8 +8,6 @@ import {
 import './App.css'
 import AboutMe from "./components/AboutMe";
 
-import CreatedThings from "./components/CreatedThings";
-
 export default function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
