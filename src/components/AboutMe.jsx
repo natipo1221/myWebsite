@@ -1,6 +1,6 @@
 import React from 'react';
 import CreatedThings from './CreatedThings';
-import PersonalDetails from './personaldetails';
+import PersonalDetails from './Personaldetails';
 const AboutMe = () => {
   return (
     
