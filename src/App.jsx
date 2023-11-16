@@ -6,9 +6,7 @@ import {
 } from "react-router-dom";
 
 import './App.css'
-import AboutMe from "./components/AboutMe";
-
-import CreatedThings from "./components/CreatedThings";
+import AboutMe from "./components/AboutMe.jsx";
 
 export default function App() {
   const router = createBrowserRouter(
